@@ -1,0 +1,142 @@
+Alessandro Del Piero
+Alessandro Nesta
+Alisson Becker
+Andrea Pirlo
+Angel Di Maria
+Antoine Griezmann
+Arturo Vidal
+Cesc Fabregas
+Cristiano Ronaldo
+David Beckham
+David de Gea
+Dani Alves
+Daniele De Rossi
+David Villa
+Diego Maradona
+Dino Zoff
+Dries Mertens
+Eden Hazard
+Edinson Cavani
+Edwin Van Der Sar
+Fabio Cannavaro
+Fernando Torres
+Franceso Totti
+Franz Beckenbauer
+Gabriel Jesus
+Gareth Bale
+Gerard Pique
+Gianluigi Buffon
+Gordon Banks
+Hugo Lloris
+Iker Casillas
+Ivan Rakitic
+Javier Mascherano
+Johan Cruyff
+Jordi Alba
+Kepa Arrizabalaga
+Keylor Navas
+Lev Yashin
+Lionel Messi
+Luis Figo
+Luis Suarez
+Luka Modric
+Manuel Neuer
+Marco Reus
+Mats Hummels
+Michael Ballack
+Michel Platini
+Miralem Pjanic
+Miroslav Klose
+Mohamed Salah
+Oliver Kahn
+Paolo Maldini
+Pele
+Peter Schmeichel
+Raul Gonzalez
+Roberto Baggio
+Roberto Carlos
+Roberto Firminho
+Robert Lewandowski
+Ronaldo
+Ronaldinho
+Sadio Mane
+Sergio Aguero
+Sergio Ramos
+Steven Gerrard
+Thiago Silva
+Thibaut Courtois
+Thierry Henry
+Xabi Alonso
+Xavi
+Zinedine Zidane
+Zlatan IbrahimovicPlayer: Alessandro Del Piero
+Player: Alessandro Nesta
+Player: Alisson Becker
+Player: Andrea Pirlo
+Player: Angel Di Maria
+Player: Antoine Griezmann
+Player: Arturo Vidal
+Player: Cesc Fabregas
+Player: Cristiano Ronaldo
+Player: David Beckham
+Player: David de Gea
+Player: Dani Alves
+Player: Daniele De Rossi
+Player: David Villa
+Player: Diego Maradona
+Player: Dino Zoff
+Player: Dries Mertens
+Player: Eden Hazard
+Player: Edinson Cavani
+Player: Edwin Van Der Sar
+Player: Fabio Cannavaro
+Player: Fernando Torres
+Player: Franceso Totti
+Player: Franz Beckenbauer
+Player: Gabriel Jesus
+Player: Gareth Bale
+Player: Gerard Pique
+Player: Gianluigi Buffon
+Player: Gordon Banks
+Player: Hugo Lloris
+Player: Iker Casillas
+Player: Ivan Rakitic
+Player: Javier Mascherano
+Player: Johan Cruyff
+Player: Jordi Alba
+Player: Kepa Arrizabalaga
+Player: Keylor Navas
+Player: Lev Yashin
+Player: Lionel Messi
+Player: Luis Figo
+Player: Luis Suarez
+Player: Luka Modric
+Player: Manuel Neuer
+Player: Marco Reus
+Player: Mats Hummels
+Player: Michael Ballack
+Player: Michel Platini
+Player: Miralem Pjanic
+Player: Miroslav Klose
+Player: Mohamed Salah
+Player: Oliver Kahn
+Player: Paolo Maldini
+Player: Pele
+Player: Peter Schmeichel
+Player: Raul Gonzalez
+Player: Roberto Baggio
+Player: Roberto Carlos
+Player: Roberto Firminho
+Player: Robert Lewandowski
+Player: Ronaldo
+Player: Ronaldinho
+Player: Sadio Mane
+Player: Sergio Aguero
+Player: Sergio Ramos
+Player: Steven Gerrard
+Player: Thiago Silva
+Player: Thibaut Courtois
+Player: Thierry Henry
+Player: Xabi Alonso
+Player: Xavi
+Player: Zinedine Zidane

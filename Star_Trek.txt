@@ -1,0 +1,13 @@
+Character: Beverly Crusher
+Character: Data
+Character: Deanna Troi
+Character: Geordi La Forge
+Character: Hikaru Sulu
+Character: James T. Kirk
+Character: Jean-Luc Picard
+Character: Leonard McCoy
+Character: Montgomery Scott
+Character: Nyota Uhura
+Character: Pavel Chekov
+Character: Spock
+Character: William Riker
