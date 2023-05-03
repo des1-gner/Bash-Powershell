@@ -1,0 +1,5 @@
+Chicago Bulls;Basketball;Chicago, USA;1966
+Golden State Warriors;Basketball;San Francisco, USA;1946
+Los Angeles Lakers;Basketball;Los Angeles, USA;1947
+New England Patriots;NFL;Boston, USA;1960
+Philadelphia 76ers;Basketball;Philadelphia, USA;1946

@@ -1,310 +1,59 @@
+Ign:1 http://packages.linuxmint.com una InRelease
+Hit:2 http://archive.canonical.com/ubuntu focal InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu focal InRelease
+Get:4 http://packages.linuxmint.com una Release [24.1 kB]
+Get:5 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+Get:6 http://archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Get:7 http://packages.linuxmint.com una Release.gpg [833 B]
+Get:8 http://packages.linuxmint.com una/upstream amd64 Packages [50.4 kB]
+Get:9 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [1,861 kB]
+Get:10 http://archive.ubuntu.com/ubuntu focal-backports InRelease [108 kB]
+Get:11 http://packages.linuxmint.com una/backport amd64 Packages [90.3 kB]
+Get:12 http://packages.linuxmint.com una/backport i386 Packages [27.1 kB]
+Get:13 http://archive.ubuntu.com/ubuntu focal-updates/main i386 Packages [756 kB]
+Get:14 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [2,236 kB]
+Get:15 http://security.ubuntu.com/ubuntu focal-security/main i386 Packages [524 kB]
+Get:16 http://security.ubuntu.com/ubuntu focal-security/main Translation-en [306 kB]
+Get:17 http://security.ubuntu.com/ubuntu focal-security/main amd64 DEP-11 Metadata [40.8 kB]
+Get:18 http://security.ubuntu.com/ubuntu focal-security/main amd64 c-n-f Metadata [11.4 kB]
+Get:19 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 Packages [1,332 kB]
+Get:20 http://archive.ubuntu.com/ubuntu focal-updates/main Translation-en [390 kB]
+Get:21 http://security.ubuntu.com/ubuntu focal-security/restricted i386 Packages [26.5 kB]
+Get:22 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 DEP-11 Metadata [275 kB]
+Get:23 http://security.ubuntu.com/ubuntu focal-security/restricted Translation-en [188 kB]
+Get:24 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 c-n-f Metadata [640 B]
+Get:25 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [773 kB]
+Get:26 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 c-n-f Metadata [16.1 kB]
+Get:27 http://archive.ubuntu.com/ubuntu focal-updates/restricted i386 Packages [27.8 kB]
+Get:28 http://archive.ubuntu.com/ubuntu focal-updates/restricted amd64 Packages [1,424 kB]
+Get:29 http://security.ubuntu.com/ubuntu focal-security/universe i386 Packages [573 kB]
+Get:30 http://security.ubuntu.com/ubuntu focal-security/universe Translation-en [149 kB]
+Get:31 http://security.ubuntu.com/ubuntu focal-security/universe amd64 DEP-11 Metadata [94.0 kB]
+Get:32 http://security.ubuntu.com/ubuntu focal-security/universe amd64 c-n-f Metadata [16.8 kB]
+Get:33 http://security.ubuntu.com/ubuntu focal-security/multiverse i386 Packages [7,204 B]
+Get:34 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 Packages [22.2 kB]
+Get:35 http://security.ubuntu.com/ubuntu focal-security/multiverse Translation-en [5,400 B]
+Get:36 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 DEP-11 Metadata [940 B]
+Get:37 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 c-n-f Metadata [516 B]
+Get:38 http://archive.ubuntu.com/ubuntu focal-updates/restricted Translation-en [202 kB]
+Get:39 http://archive.ubuntu.com/ubuntu focal-updates/restricted amd64 c-n-f Metadata [636 B]
+Get:40 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [1,004 kB]
+Get:41 http://archive.ubuntu.com/ubuntu focal-updates/universe i386 Packages [704 kB]
+Get:42 http://archive.ubuntu.com/ubuntu focal-updates/universe Translation-en [233 kB]
+Get:43 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 DEP-11 Metadata [408 kB]
+Get:44 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 c-n-f Metadata [23.2 kB]
+Get:45 http://archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 Packages [24.4 kB]
+Get:46 http://archive.ubuntu.com/ubuntu focal-updates/multiverse i386 Packages [8,448 B]
+Get:47 http://archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 DEP-11 Metadata [944 B]
+Get:48 http://archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 c-n-f Metadata [592 B]
+Get:49 http://archive.ubuntu.com/ubuntu focal-backports/main i386 Packages [36.1 kB]
+Get:50 http://archive.ubuntu.com/ubuntu focal-backports/main amd64 Packages [45.7 kB]
+Get:51 http://archive.ubuntu.com/ubuntu focal-backports/main amd64 DEP-11 Metadata [7,988 B]
+Get:52 http://archive.ubuntu.com/ubuntu focal-backports/main amd64 c-n-f Metadata [1,420 B]
+Get:53 http://archive.ubuntu.com/ubuntu focal-backports/universe i386 Packages [13.5 kB]
+Get:54 http://archive.ubuntu.com/ubuntu focal-backports/universe amd64 Packages [24.0 kB]
+Get:55 http://archive.ubuntu.com/ubuntu focal-backports/universe Translation-en [16.0 kB]
+Get:56 http://archive.ubuntu.com/ubuntu focal-backports/universe amd64 DEP-11 Metadata [30.5 kB]
+Get:57 http://archive.ubuntu.com/ubuntu focal-backports/universe amd64 c-n-f Metadata [860 B]
+Fetched 14.4 MB in 36s (398 kB/s)
 Reading package lists...
-Building dependency tree...
-Reading state information...
-Calculating upgrade...
-The following packages have been kept back:
-  fwupd gir1.2-javascriptcoregtk-4.0 gir1.2-webkit2-4.0
-  libjavascriptcoregtk-4.0-18 libwebkit2gtk-4.0-37 linux-generic
-  linux-headers-generic linux-image-generic thingy
-The following packages will be upgraded:
-  curl dbus dbus-user-session dbus-x11 distro-info-data firefox
-  firefox-locale-en gir1.2-xapp-1.0 kpartx kpartx-boot libcurl3-gnutls
-  libcurl4 libdbus-1-3 libexpat1 libflac8 libfprint-2-2 libfwupd2 libjbig0
-  libmysqlclient21 libnss-myhostname libnss-systemd libntfs-3g883
-  libpam-systemd libpixman-1-0 libsqlite3-0 libsystemd0 libtiff5 libudev1
-  libxapp1 linux-firmware linux-libc-dev login ntfs-3g openjdk-11-jre
-  openjdk-11-jre-headless passwd python3-apport python3-pil
-  python3-problem-report systemd systemd-coredump systemd-sysv
-  systemd-timesyncd thunderbird thunderbird-gnome-support
-  thunderbird-locale-en thunderbird-locale-en-us tzdata udev xapps-common
-  xserver-common xserver-xephyr xserver-xorg-core xserver-xorg-legacy
-  xul-ext-lightning xwayland
-56 to upgrade, 0 to newly install, 0 to remove and 9 not to upgrade.
-Need to get 308 MB of archives.
-After this operation, 40.1 MB of additional disk space will be used.
-Get:1 http://packages.linuxmint.com una/upstream amd64 firefox amd64 107.0+linuxmint1+una [63.7 MB]
-Get:2 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 login amd64 1:4.8.1-1ubuntu5.20.04.4 [221 kB]
-Get:3 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libnss-systemd amd64 245.4-4ubuntu3.19 [95.8 kB]
-Get:4 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 xserver-common all 2:1.20.13-1ubuntu1~20.04.4 [26.7 kB]
-Get:5 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 xserver-xorg-legacy amd64 2:1.20.13-1ubuntu1~20.04.4 [32.4 kB]
-Get:6 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 udev amd64 245.4-4ubuntu3.19 [1,367 kB]
-Get:7 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libudev1 amd64 245.4-4ubuntu3.19 [75.5 kB]
-Get:8 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libsystemd0 amd64 245.4-4ubuntu3.19 [268 kB]
-Get:9 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 xserver-xorg-core amd64 2:1.20.13-1ubuntu1~20.04.4 [1,339 kB]
-Get:10 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 systemd amd64 245.4-4ubuntu3.19 [3,812 kB]
-Get:11 http://packages.linuxmint.com una/backport amd64 xapps-common all 2.2.13+una [59.7 kB]
-Get:12 http://packages.linuxmint.com una/backport amd64 libxapp1 amd64 2.2.13+una [102 kB]
-Get:13 http://packages.linuxmint.com una/backport amd64 gir1.2-xapp-1.0 amd64 2.2.13+una [17.3 kB]
-Get:14 http://packages.linuxmint.com una/upstream amd64 firefox-locale-en amd64 107.0+linuxmint1+una [736 kB]
-Get:15 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 systemd-timesyncd amd64 245.4-4ubuntu3.19 [28.1 kB]
-Get:16 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 systemd-coredump amd64 245.4-4ubuntu3.19 [43.6 kB]
-Get:17 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpam-systemd amd64 245.4-4ubuntu3.19 [186 kB]
-Get:18 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 systemd-sysv amd64 245.4-4ubuntu3.19 [10.3 kB]
-Get:19 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libexpat1 amd64 2.2.9-1ubuntu0.6 [74.6 kB]
-Get:20 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 dbus-user-session amd64 1.12.16-2ubuntu2.3 [9,424 B]
-Get:21 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 dbus-x11 amd64 1.12.16-2ubuntu2.3 [22.6 kB]
-Get:22 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libdbus-1-3 amd64 1.12.16-2ubuntu2.3 [179 kB]
-Get:23 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 dbus amd64 1.12.16-2ubuntu2.3 [151 kB]
-Get:24 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpixman-1-0 amd64 0.38.4-0ubuntu2.1 [227 kB]
-Get:25 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 ntfs-3g amd64 1:2017.3.23AR.3-3ubuntu1.3 [388 kB]
-Get:26 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libntfs-3g883 amd64 1:2017.3.23AR.3-3ubuntu1.3 [150 kB]
-Get:27 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 passwd amd64 1:4.8.1-1ubuntu5.20.04.4 [799 kB]
-Get:28 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 distro-info-data all 0.43ubuntu1.11 [4,672 B]
-Get:29 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libsqlite3-0 amd64 3.31.1-4ubuntu0.5 [549 kB]
-Get:30 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 tzdata all 2022f-0ubuntu0.20.04.1 [285 kB]
-Get:31 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libcurl3-gnutls amd64 7.68.0-1ubuntu2.14 [233 kB]
-Get:32 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libjbig0 amd64 2.1-3.1ubuntu0.20.04.1 [27.3 kB]
-Get:33 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libtiff5 amd64 4.1.0+git191117-2ubuntu0.20.04.6 [163 kB]
-Get:34 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 curl amd64 7.68.0-1ubuntu2.14 [161 kB]
-Get:35 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libcurl4 amd64 7.68.0-1ubuntu2.14 [235 kB]
-Get:36 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libflac8 amd64 1.3.3-1ubuntu0.1 [103 kB]
-Get:37 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libfprint-2-2 amd64 1:1.90.2+tod1-0ubuntu1~20.04.9 [212 kB]
-Get:38 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libfwupd2 amd64 1.7.9-1~20.04.1 [92.5 kB]
-Get:39 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libmysqlclient21 amd64 8.0.31-0ubuntu0.20.04.1 [1,327 kB]
-Get:40 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-firmware all 1.187.34 [131 MB]
-Get:41 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-libc-dev amd64 5.4.0-132.148 [1,120 kB]
-Get:42 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 openjdk-11-jre amd64 11.0.17+8-1ubuntu2~20.04 [175 kB]
-Get:43 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 openjdk-11-jre-headless amd64 11.0.17+8-1ubuntu2~20.04 [37.4 MB]
-Get:44 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-problem-report all 2.20.11-0ubuntu27.25 [11.0 kB]
-Get:45 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-apport all 2.20.11-0ubuntu27.25 [86.4 kB]
-Get:46 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-pil amd64 7.0.0-4ubuntu0.6 [366 kB]
-Get:47 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 thunderbird-locale-en amd64 1:102.4.2+build2-0ubuntu0.20.04.1 [948 kB]
-Get:48 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 thunderbird amd64 1:102.4.2+build2-0ubuntu0.20.04.1 [57.6 MB]
-Get:49 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 thunderbird-gnome-support amd64 1:102.4.2+build2-0ubuntu0.20.04.1 [8,636 B]
-Get:50 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 thunderbird-locale-en-us all 1:102.4.2+build2-0ubuntu0.20.04.1 [9,568 B]
-Get:51 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 xserver-xephyr amd64 2:1.20.13-1ubuntu1~20.04.4 [916 kB]
-Get:52 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 xul-ext-lightning amd64 1:102.4.2+build2-0ubuntu0.20.04.1 [9,520 B]
-Get:53 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 xwayland amd64 2:1.20.13-1ubuntu1~20.04.4 [869 kB]
-Get:54 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 kpartx-boot all 0.8.3-1ubuntu2.1 [6,080 B]
-Get:55 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 kpartx amd64 0.8.3-1ubuntu2.1 [27.8 kB]
-Get:56 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libnss-myhostname amd64 245.4-4ubuntu3.19 [41.4 kB]
-Fetched 308 MB in 9min 28s (542 kB/s)
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 278459 files and directories currently installed.)
-Preparing to unpack .../login_1%3a4.8.1-1ubuntu5.20.04.4_amd64.deb ...
-Unpacking login (1:4.8.1-1ubuntu5.20.04.4) over (1:4.8.1-1ubuntu5.20.04.2) ...
-Setting up login (1:4.8.1-1ubuntu5.20.04.4) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 278459 files and directories currently installed.)
-Preparing to unpack .../libnss-systemd_245.4-4ubuntu3.19_amd64.deb ...
-Unpacking libnss-systemd:amd64 (245.4-4ubuntu3.19) over (245.4-4ubuntu3.18) ...
-Preparing to unpack .../xserver-common_2%3a1.20.13-1ubuntu1~20.04.4_all.deb ...
-Unpacking xserver-common (2:1.20.13-1ubuntu1~20.04.4) over (2:1.20.13-1ubuntu1~20.04.3) ...
-Preparing to unpack .../xserver-xorg-legacy_2%3a1.20.13-1ubuntu1~20.04.4_amd64.deb ...
-Unpacking xserver-xorg-legacy (2:1.20.13-1ubuntu1~20.04.4) over (2:1.20.13-1ubuntu1~20.04.3) ...
-Preparing to unpack .../udev_245.4-4ubuntu3.19_amd64.deb ...
-Unpacking udev (245.4-4ubuntu3.19) over (245.4-4ubuntu3.18) ...
-Preparing to unpack .../libudev1_245.4-4ubuntu3.19_amd64.deb ...
-Unpacking libudev1:amd64 (245.4-4ubuntu3.19) over (245.4-4ubuntu3.18) ...
-Setting up libudev1:amd64 (245.4-4ubuntu3.19) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 278459 files and directories currently installed.)
-Preparing to unpack .../libsystemd0_245.4-4ubuntu3.19_amd64.deb ...
-Unpacking libsystemd0:amd64 (245.4-4ubuntu3.19) over (245.4-4ubuntu3.18) ...
-Setting up libsystemd0:amd64 (245.4-4ubuntu3.19) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 278459 files and directories currently installed.)
-Preparing to unpack .../xserver-xorg-core_2%3a1.20.13-1ubuntu1~20.04.4_amd64.deb ...
-Unpacking xserver-xorg-core (2:1.20.13-1ubuntu1~20.04.4) over (2:1.20.13-1ubuntu1~20.04.3) ...
-Preparing to unpack .../systemd_245.4-4ubuntu3.19_amd64.deb ...
-Unpacking systemd (245.4-4ubuntu3.19) over (245.4-4ubuntu3.18) ...
-Setting up systemd (245.4-4ubuntu3.19) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 278459 files and directories currently installed.)
-Preparing to unpack .../systemd-timesyncd_245.4-4ubuntu3.19_amd64.deb ...
-Unpacking systemd-timesyncd (245.4-4ubuntu3.19) over (245.4-4ubuntu3.18) ...
-Setting up systemd-timesyncd (245.4-4ubuntu3.19) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 278459 files and directories currently installed.)
-Preparing to unpack .../systemd-coredump_245.4-4ubuntu3.19_amd64.deb ...
-Unpacking systemd-coredump (245.4-4ubuntu3.19) over (245.4-4ubuntu3.18) ...
-Preparing to unpack .../libpam-systemd_245.4-4ubuntu3.19_amd64.deb ...
-Unpacking libpam-systemd:amd64 (245.4-4ubuntu3.19) over (245.4-4ubuntu3.18) ...
-Setting up libpam-systemd:amd64 (245.4-4ubuntu3.19) ...
-debconf: unable to initialise frontend: Dialog
-debconf: (Dialogue frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
-debconf: falling back to frontend: Readline
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 278459 files and directories currently installed.)
-Preparing to unpack .../systemd-sysv_245.4-4ubuntu3.19_amd64.deb ...
-Unpacking systemd-sysv (245.4-4ubuntu3.19) over (245.4-4ubuntu3.18) ...
-Setting up systemd-sysv (245.4-4ubuntu3.19) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 278459 files and directories currently installed.)
-Preparing to unpack .../libexpat1_2.2.9-1ubuntu0.6_amd64.deb ...
-Unpacking libexpat1:amd64 (2.2.9-1ubuntu0.6) over (2.2.9-1ubuntu0.4) ...
-Setting up libexpat1:amd64 (2.2.9-1ubuntu0.6) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 278459 files and directories currently installed.)
-Preparing to unpack .../dbus-user-session_1.12.16-2ubuntu2.3_amd64.deb ...
-Unpacking dbus-user-session (1.12.16-2ubuntu2.3) over (1.12.16-2ubuntu2.2) ...
-Preparing to unpack .../dbus-x11_1.12.16-2ubuntu2.3_amd64.deb ...
-Unpacking dbus-x11 (1.12.16-2ubuntu2.3) over (1.12.16-2ubuntu2.2) ...
-Preparing to unpack .../libdbus-1-3_1.12.16-2ubuntu2.3_amd64.deb ...
-Unpacking libdbus-1-3:amd64 (1.12.16-2ubuntu2.3) over (1.12.16-2ubuntu2.2) ...
-Setting up libdbus-1-3:amd64 (1.12.16-2ubuntu2.3) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 278459 files and directories currently installed.)
-Preparing to unpack .../dbus_1.12.16-2ubuntu2.3_amd64.deb ...
-Unpacking dbus (1.12.16-2ubuntu2.3) over (1.12.16-2ubuntu2.2) ...
-Setting up dbus (1.12.16-2ubuntu2.3) ...
-A reboot is required to replace the running dbus-daemon.
-Please reboot the system when convenient.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 278459 files and directories currently installed.)
-Preparing to unpack .../libpixman-1-0_0.38.4-0ubuntu2.1_amd64.deb ...
-Unpacking libpixman-1-0:amd64 (0.38.4-0ubuntu2.1) over (0.38.4-0ubuntu1) ...
-Setting up libpixman-1-0:amd64 (0.38.4-0ubuntu2.1) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 278459 files and directories currently installed.)
-Preparing to unpack .../ntfs-3g_1%3a2017.3.23AR.3-3ubuntu1.3_amd64.deb ...
-Unpacking ntfs-3g (1:2017.3.23AR.3-3ubuntu1.3) over (1:2017.3.23AR.3-3ubuntu1.2) ...
-Preparing to unpack .../libntfs-3g883_1%3a2017.3.23AR.3-3ubuntu1.3_amd64.deb ...
-Unpacking libntfs-3g883 (1:2017.3.23AR.3-3ubuntu1.3) over (1:2017.3.23AR.3-3ubuntu1.2) ...
-Preparing to unpack .../firefox_107.0+linuxmint1+una_amd64.deb ...
-Unpacking firefox (107.0+linuxmint1+una) over (106.0.1+linuxmint1+una) ...
-Preparing to unpack .../passwd_1%3a4.8.1-1ubuntu5.20.04.4_amd64.deb ...
-Unpacking passwd (1:4.8.1-1ubuntu5.20.04.4) over (1:4.8.1-1ubuntu5.20.04.2) ...
-Setting up passwd (1:4.8.1-1ubuntu5.20.04.4) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 278459 files and directories currently installed.)
-Preparing to unpack .../distro-info-data_0.43ubuntu1.11_all.deb ...
-Unpacking distro-info-data (0.43ubuntu1.11) over (0.43ubuntu1.10) ...
-Setting up distro-info-data (0.43ubuntu1.11) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 278459 files and directories currently installed.)
-Preparing to unpack .../libsqlite3-0_3.31.1-4ubuntu0.5_amd64.deb ...
-Unpacking libsqlite3-0:amd64 (3.31.1-4ubuntu0.5) over (3.31.1-4ubuntu0.4) ...
-Setting up libsqlite3-0:amd64 (3.31.1-4ubuntu0.5) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 278459 files and directories currently installed.)
-Preparing to unpack .../tzdata_2022f-0ubuntu0.20.04.1_all.deb ...
-Unpacking tzdata (2022f-0ubuntu0.20.04.1) over (2022c-0ubuntu0.20.04.0) ...
-Setting up tzdata (2022f-0ubuntu0.20.04.1) ...
-debconf: unable to initialize frontend: Dialog
-debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
-debconf: falling back to frontend: Readline
-
-Current default time zone: 'Australia/Melbourne'
-Local time is now:      Wed Nov 30 08:50:53 AEDT 2022.
-Universal Time is now:  Tue Nov 29 21:50:53 UTC 2022.
-Run 'dpkg-reconfigure tzdata' if you wish to change it.
-
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 278459 files and directories currently installed.)
-Preparing to unpack .../xapps-common_2.2.13+una_all.deb ...
-Unpacking xapps-common (2.2.13+una) over (2.2.8+una) ...
-Setting up xapps-common (2.2.13+una) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 278460 files and directories currently installed.)
-Preparing to unpack .../libxapp1_2.2.13+una_amd64.deb ...
-Unpacking libxapp1:amd64 (2.2.13+una) over (2.2.8+una) ...
-Processing triggers for libglib2.0-0:amd64 (2.64.6-1~ubuntu20.04.4) ...
-Setting up libxapp1:amd64 (2.2.13+una) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 278460 files and directories currently installed.)
-Preparing to unpack .../gir1.2-xapp-1.0_2.2.13+una_amd64.deb ...
-Unpacking gir1.2-xapp-1.0 (2.2.13+una) over (2.2.8+una) ...
-Setting up gir1.2-xapp-1.0 (2.2.13+una) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 278460 files and directories currently installed.)
-Preparing to unpack .../libcurl3-gnutls_7.68.0-1ubuntu2.14_amd64.deb ...
-Unpacking libcurl3-gnutls:amd64 (7.68.0-1ubuntu2.14) over (7.68.0-1ubuntu2.13) ...
-Setting up libcurl3-gnutls:amd64 (7.68.0-1ubuntu2.14) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 278460 files and directories currently installed.)
-Preparing to unpack .../libjbig0_2.1-3.1ubuntu0.20.04.1_amd64.deb ...
-Unpacking libjbig0:amd64 (2.1-3.1ubuntu0.20.04.1) over (2.1-3.1build1) ...
-Setting up libjbig0:amd64 (2.1-3.1ubuntu0.20.04.1) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 278460 files and directories currently installed.)
-Preparing to unpack .../libtiff5_4.1.0+git191117-2ubuntu0.20.04.6_amd64.deb ...
-Unpacking libtiff5:amd64 (4.1.0+git191117-2ubuntu0.20.04.6) over (4.1.0+git191117-2ubuntu0.20.04.5) ...
-Setting up libtiff5:amd64 (4.1.0+git191117-2ubuntu0.20.04.6) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 278460 files and directories currently installed.)
-Preparing to unpack .../00-curl_7.68.0-1ubuntu2.14_amd64.deb ...
-Unpacking curl (7.68.0-1ubuntu2.14) over (7.68.0-1ubuntu2.13) ...
-Preparing to unpack .../01-libcurl4_7.68.0-1ubuntu2.14_amd64.deb ...
-Unpacking libcurl4:amd64 (7.68.0-1ubuntu2.14) over (7.68.0-1ubuntu2.13) ...
-Preparing to unpack .../02-firefox-locale-en_107.0+linuxmint1+una_amd64.deb ...
-Unpacking firefox-locale-en (107.0+linuxmint1+una) over (106.0.1+linuxmint1+una) ...
-Preparing to unpack .../03-libflac8_1.3.3-1ubuntu0.1_amd64.deb ...
-Unpacking libflac8:amd64 (1.3.3-1ubuntu0.1) over (1.3.3-1build1) ...
-Preparing to unpack .../04-libfprint-2-2_1%3a1.90.2+tod1-0ubuntu1~20.04.9_amd64.deb ...
-Unpacking libfprint-2-2:amd64 (1:1.90.2+tod1-0ubuntu1~20.04.9) over (1:1.90.2+tod1-0ubuntu1~20.04.8) ...
-Preparing to unpack .../05-libfwupd2_1.7.9-1~20.04.1_amd64.deb ...
-Unpacking libfwupd2:amd64 (1.7.9-1~20.04.1) over (1.7.5-3~20.04.1) ...
-Preparing to unpack .../06-libmysqlclient21_8.0.31-0ubuntu0.20.04.1_amd64.deb ...
-Unpacking libmysqlclient21:amd64 (8.0.31-0ubuntu0.20.04.1) over (8.0.30-0ubuntu0.20.04.2) ...
-Preparing to unpack .../07-linux-firmware_1.187.34_all.deb ...
-Unpacking linux-firmware (1.187.34) over (1.187.33) ...
-Preparing to unpack .../08-linux-libc-dev_5.4.0-132.148_amd64.deb ...
-Unpacking linux-libc-dev:amd64 (5.4.0-132.148) over (5.4.0-131.147) ...
-Preparing to unpack .../09-openjdk-11-jre_11.0.17+8-1ubuntu2~20.04_amd64.deb ...
-Unpacking openjdk-11-jre:amd64 (11.0.17+8-1ubuntu2~20.04) over (11.0.16+8-0ubuntu1~20.04) ...
-Preparing to unpack .../10-openjdk-11-jre-headless_11.0.17+8-1ubuntu2~20.04_amd64.deb ...
-Unpacking openjdk-11-jre-headless:amd64 (11.0.17+8-1ubuntu2~20.04) over (11.0.16+8-0ubuntu1~20.04) ...
-Preparing to unpack .../11-python3-problem-report_2.20.11-0ubuntu27.25_all.deb ...
-Unpacking python3-problem-report (2.20.11-0ubuntu27.25) over (2.20.11-0ubuntu27.24) ...
-Preparing to unpack .../12-python3-apport_2.20.11-0ubuntu27.25_all.deb ...
-Unpacking python3-apport (2.20.11-0ubuntu27.25) over (2.20.11-0ubuntu27.24) ...
-Preparing to unpack .../13-python3-pil_7.0.0-4ubuntu0.6_amd64.deb ...
-Unpacking python3-pil:amd64 (7.0.0-4ubuntu0.6) over (7.0.0-4ubuntu0.5) ...
-Preparing to unpack .../14-thunderbird-locale-en_1%3a102.4.2+build2-0ubuntu0.20.04.1_amd64.deb ...
-Unpacking thunderbird-locale-en (1:102.4.2+build2-0ubuntu0.20.04.1) over (1:102.2.2+build1-0ubuntu0.20.04.1) ...
-Preparing to unpack .../15-thunderbird_1%3a102.4.2+build2-0ubuntu0.20.04.1_amd64.deb ...
-Unpacking thunderbird (1:102.4.2+build2-0ubuntu0.20.04.1) over (1:102.2.2+build1-0ubuntu0.20.04.1) ...
-Preparing to unpack .../16-thunderbird-gnome-support_1%3a102.4.2+build2-0ubuntu0.20.04.1_amd64.deb ...
-Unpacking thunderbird-gnome-support (1:102.4.2+build2-0ubuntu0.20.04.1) over (1:102.2.2+build1-0ubuntu0.20.04.1) ...
-Preparing to unpack .../17-thunderbird-locale-en-us_1%3a102.4.2+build2-0ubuntu0.20.04.1_all.deb ...
-Unpacking thunderbird-locale-en-us (1:102.4.2+build2-0ubuntu0.20.04.1) over (1:102.2.2+build1-0ubuntu0.20.04.1) ...
-Preparing to unpack .../18-xserver-xephyr_2%3a1.20.13-1ubuntu1~20.04.4_amd64.deb ...
-Unpacking xserver-xephyr (2:1.20.13-1ubuntu1~20.04.4) over (2:1.20.13-1ubuntu1~20.04.3) ...
-Preparing to unpack .../19-xul-ext-lightning_1%3a102.4.2+build2-0ubuntu0.20.04.1_amd64.deb ...
-Unpacking xul-ext-lightning (1:102.4.2+build2-0ubuntu0.20.04.1) over (1:102.2.2+build1-0ubuntu0.20.04.1) ...
-Preparing to unpack .../20-xwayland_2%3a1.20.13-1ubuntu1~20.04.4_amd64.deb ...
-Unpacking xwayland (2:1.20.13-1ubuntu1~20.04.4) over (2:1.20.13-1ubuntu1~20.04.3) ...
-Preparing to unpack .../21-kpartx-boot_0.8.3-1ubuntu2.1_all.deb ...
-Unpacking kpartx-boot (0.8.3-1ubuntu2.1) over (0.8.3-1ubuntu2) ...
-Preparing to unpack .../22-kpartx_0.8.3-1ubuntu2.1_amd64.deb ...
-Unpacking kpartx (0.8.3-1ubuntu2.1) over (0.8.3-1ubuntu2) ...
-Preparing to unpack .../23-libnss-myhostname_245.4-4ubuntu3.19_amd64.deb ...
-Unpacking libnss-myhostname:amd64 (245.4-4ubuntu3.19) over (245.4-4ubuntu3.18) ...
-Setting up libmysqlclient21:amd64 (8.0.31-0ubuntu0.20.04.1) ...
-Setting up firefox (107.0+linuxmint1+una) ...
-Setting up xul-ext-lightning (1:102.4.2+build2-0ubuntu0.20.04.1) ...
-Setting up linux-firmware (1.187.34) ...
-update-initramfs: Generating /boot/initrd.img-5.4.0-91-generic
-Setting up systemd-coredump (245.4-4ubuntu3.19) ...
-Setting up python3-problem-report (2.20.11-0ubuntu27.25) ...
-Setting up openjdk-11-jre-headless:amd64 (11.0.17+8-1ubuntu2~20.04) ...
-Installing new version of config file /etc/java-11-openjdk/jfr/default.jfc ...
-Installing new version of config file /etc/java-11-openjdk/jfr/profile.jfc ...
-Installing new version of config file /etc/java-11-openjdk/security/default.policy ...
-Installing new version of config file /etc/java-11-openjdk/security/java.security ...
-Setting up libfwupd2:amd64 (1.7.9-1~20.04.1) ...
-Setting up linux-libc-dev:amd64 (5.4.0-132.148) ...
-Setting up libnss-systemd:amd64 (245.4-4ubuntu3.19) ...
-Setting up libntfs-3g883 (1:2017.3.23AR.3-3ubuntu1.3) ...
-Setting up openjdk-11-jre:amd64 (11.0.17+8-1ubuntu2~20.04) ...
-Setting up ntfs-3g (1:2017.3.23AR.3-3ubuntu1.3) ...
-Setting up libflac8:amd64 (1.3.3-1ubuntu0.1) ...
-Setting up python3-apport (2.20.11-0ubuntu27.25) ...
-Setting up python3-pil:amd64 (7.0.0-4ubuntu0.6) ...
-Setting up dbus-user-session (1.12.16-2ubuntu2.3) ...
-Setting up firefox-locale-en (107.0+linuxmint1+una) ...
-Setting up udev (245.4-4ubuntu3.19) ...
-update-initramfs: deferring update (trigger activated)
-Setting up libnss-myhostname:amd64 (245.4-4ubuntu3.19) ...
-Setting up dbus-x11 (1.12.16-2ubuntu2.3) ...
-Setting up kpartx (0.8.3-1ubuntu2.1) ...
-Setting up libcurl4:amd64 (7.68.0-1ubuntu2.14) ...
-Setting up thunderbird (1:102.4.2+build2-0ubuntu0.20.04.1) ...
-Setting up curl (7.68.0-1ubuntu2.14) ...
-Setting up xserver-common (2:1.20.13-1ubuntu1~20.04.4) ...
-Setting up xwayland (2:1.20.13-1ubuntu1~20.04.4) ...
-Setting up xserver-xorg-legacy (2:1.20.13-1ubuntu1~20.04.4) ...
-debconf: unable to initialise frontend: Dialog
-debconf: (Dialogue frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
-debconf: falling back to frontend: Readline
-setting xserver-xorg-legacy/xwrapper/allowed_users from configuration file
-Setting up libfprint-2-2:amd64 (1:1.90.2+tod1-0ubuntu1~20.04.9) ...
-Setting up kpartx-boot (0.8.3-1ubuntu2.1) ...
-debconf: unable to initialise frontend: Dialog
-debconf: (Dialogue frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
-debconf: falling back to frontend: Readline
-update-initramfs: deferring update (trigger activated)
-Setting up xserver-xorg-core (2:1.20.13-1ubuntu1~20.04.4) ...
-Setting up thunderbird-locale-en (1:102.4.2+build2-0ubuntu0.20.04.1) ...
-Setting up thunderbird-locale-en-us (1:102.4.2+build2-0ubuntu0.20.04.1) ...
-Setting up xserver-xephyr (2:1.20.13-1ubuntu1~20.04.4) ...
-Setting up thunderbird-gnome-support (1:102.4.2+build2-0ubuntu0.20.04.1) ...
-Processing triggers for desktop-file-utils (0.24+linuxmint1) ...
-Processing triggers for mime-support (3.64ubuntu1) ...
-Processing triggers for initramfs-tools (0.136ubuntu6.7) ...
-update-initramfs: Generating /boot/initrd.img-5.4.0-91-generic
-Processing triggers for hicolor-icon-theme (0.17-2) ...
-Processing triggers for gnome-menus (3.36.0-1ubuntu1) ...
-Processing triggers for libc-bin (2.31-0ubuntu9.9) ...
-Processing triggers for systemd (245.4-4ubuntu3.19) ...
-Processing triggers for man-db (2.9.1-1) ...
-Processing triggers for mintsystem (8.5.3) ...
